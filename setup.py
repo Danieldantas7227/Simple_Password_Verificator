@@ -7,15 +7,15 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
-    version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    name="Simple_Password_Verificator",
+    version="0.0.2",
+    author="Daniel Dantas Lopes",
+    author_email="dandantas29@gmail.com",
+    description="Pequeno sistema que valida a senha do usuário.",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/Danieldantas7227",
     packages=find_packages(),
     install_requires=requirements,
-    python_requires='>=3.8',
+    python_requires='>=3.0',
 )

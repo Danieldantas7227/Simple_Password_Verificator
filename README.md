@@ -1,27 +1,29 @@
-# package_name
+# Simple_Password_Verificator
 
 Description. 
-The package package_name is used to:
-	- 
-	-
+The package All_Process is used to:
+	- Verifiers
+	    -All_Verifiers
+		-Password_Verificator
+	-Main
 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
 ```bash
-pip install package_name
+pip install Simple_Password_Verificator
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from Verifiers import Password_Verificator
+Password_Verificator.start()
 ```
 
 ## Author
-My_name
+Daniel Dantas Lopes
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+...
